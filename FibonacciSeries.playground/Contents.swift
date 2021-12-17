@@ -11,5 +11,5 @@ func calculateFibonacci(_ x1: Int = 0, _ x2: Int = 1, lowerLimit: Int, upperLimi
     calculateFibonacci(x2, sum, lowerLimit: lowerLimit, upperLimit: upperLimit)
 }
 
-calculateFibonacci(lowerLimit: 1, upperLimit: 1000)
+calculateFibonacci(lowerLimit: 750, upperLimit: 1000)
 print(fibArr)
