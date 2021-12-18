@@ -7,7 +7,7 @@ func calculateFibonacci(_ x1: Int = 0, _ x2: Int = 1, lowerLimit: Int, upperLimi
     
     // If the number is bigger than the upper limit, stop the function.
     if sum > upperLimit { return }
-    // If the number is smaller than the lower limit, add it to fibArr array.
+    // If the number is bigger than the lower limit, add it to fibArr array.
     if sum > lowerLimit { fibArr.append(sum) }
     // Recursion.
     calculateFibonacci(x2, sum, lowerLimit: lowerLimit, upperLimit: upperLimit)
